@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6B4B1">
+
+    <Button
+        android:id="@+id/orderbtn"
+        android:onClick="headsUpNotification"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/round2"
+
+        android:text="ORDER NOW" />
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/cartbackground">
+
+
+        <ImageView
+            android:id="@+id/personTV"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/cartoon" />
+
+        <TextView
+            android:id="@+id/usernameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/personTV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text=""
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/CoachnumberTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/personTV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="58dp"
+            android:text=""
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/SeatnumberTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/personTV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="98dp"
+            android:text=""
+            android:textSize="24sp" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/descriptionTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/usernameTV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="108dp"
+            android:layout_marginRight="22dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+

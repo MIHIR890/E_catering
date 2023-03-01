@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/database_background"
+    android:layout_height="100dp">
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/FOOD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#06275E"
+            android:text="Complete LX part 5"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#06275E"
+            android:text="Swipe ⬆️️"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="77dp"
+        android:layout_height="match_parent"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="35dp">
+
+        <TextView
+            android:id="@+id/RATE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tomorrow"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
